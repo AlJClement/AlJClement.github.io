@@ -24,17 +24,15 @@ window.addEventListener('scroll', () => {
 window.addEventListener('resize', updateNavigation);
 updateNavigation();
 
-// Photo carousel: stop for focus, hover, hidden tabs, or reduced motion.
+// Photo carousel: rotate until paused; stop while the tab is hidden.
 for (const carousel of document.querySelectorAll('.slideshow')) {
   const slides = [...carousel.querySelectorAll('.slideshow-slide')];
   if (slides.length < 2) continue;
   const controls = carousel.querySelector('.slideshow-controls');
   const pauseButton = controls.querySelector('[data-slide="pause"]');
   const status = controls.querySelector('.slideshow-status');
-  const motion = window.matchMedia('(prefers-reduced-motion: reduce)');
   let index = 0;
-  let paused = motion.matches;
-  let hovered = false;
+  let paused = false;
   let timer;
   function show(next, announce = false) {
     slides[index].hidden = true;
@@ -46,7 +44,7 @@ for (const carousel of document.querySelectorAll('.slideshow')) {
   function schedule() {
     clearInterval(timer);
     pauseButton.textContent = paused ? 'Play slideshow' : 'Pause slideshow';
-    if (!paused && !hovered && !document.hidden && !carousel.contains(document.activeElement)) {
+    if (!paused && !document.hidden) {
       timer = setInterval(() => show(index + 1), Number(carousel.dataset.interval));
     }
   }
@@ -58,10 +56,6 @@ for (const carousel of document.querySelectorAll('.slideshow')) {
     else show(index + (button.dataset.slide === 'next' ? 1 : -1), true);
     schedule();
   });
-  carousel.addEventListener('mouseenter', () => { hovered = true; schedule(); });
-  carousel.addEventListener('mouseleave', () => { hovered = false; schedule(); });
-  carousel.addEventListener('focusin', schedule);
-  carousel.addEventListener('focusout', () => setTimeout(schedule, 0));
   carousel.addEventListener('keydown', event => {
     if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {
       event.preventDefault();
@@ -69,6 +63,5 @@ for (const carousel of document.querySelectorAll('.slideshow')) {
     }
   });
   document.addEventListener('visibilitychange', schedule);
-  motion.addEventListener('change', () => { paused = motion.matches; schedule(); });
   schedule();
 }

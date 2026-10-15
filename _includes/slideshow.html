@@ -5,10 +5,10 @@
   <div class="slideshow-stage">
     {% for slide in slideshow.slides %}
     <figure class="slideshow-slide" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ forloop.length }}" {% unless forloop.first %}hidden{% endunless %}>
-      <img src="{{ slide.image | relative_url }}" alt="{{ slide.alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" width="1200" height="750">
       {% if slide.title != '' or slide.caption != '' %}
       <figcaption>{% if slide.title != '' %}<strong>{{ slide.title | escape }}</strong>{% endif %}{% if slide.caption != '' %}<span>{{ slide.caption | escape }}</span>{% endif %}</figcaption>
       {% endif %}
+      <img src="{{ slide.image | relative_url }}" alt="{{ slide.alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" width="1200" height="750">
     </figure>
     {% endfor %}
   </div>
