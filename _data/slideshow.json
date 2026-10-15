@@ -1,5 +1,18 @@
 {
   "title": "Research & Life",
   "interval_ms": 5000,
-  "slides": []
+  "slides": [
+    {
+      "image": "/images/slideshow/japan.jpeg",
+      "title": "Research visit in Japan",
+      "caption": "",
+      "alt": "Researchers wearing 3D glasses beside a medical imaging display in a laboratory"
+    },
+    {
+      "image": "/images/slideshow/miccaikorea.jpeg",
+      "title": "MICCAI in Korea",
+      "caption": "",
+      "alt": "Discussion beside a research poster on confidence in angle predictions for clinical decision support"
+    }
+  ]
 }
