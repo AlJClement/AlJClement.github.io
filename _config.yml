@@ -166,6 +166,9 @@ include:
   - _pages
   - files
 exclude:
+  - website_pages
+  - build_academic_website.py
+  - EDITING.md
   - _pages/publications.html
   - _pages/teaching.html
   - "*.sublime-project"
