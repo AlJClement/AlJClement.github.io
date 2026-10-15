@@ -1,18 +1,30 @@
 {
-  "title": "Research & Life",
+  "title": "Research Highlights",
   "interval_ms": 3000,
   "slides": [
     {
       "image": "/images/slideshow/japan.jpeg",
-      "title": "Research visit in Japan",
+      "title": "Internship in Japan",
       "caption": "",
       "alt": "Researchers wearing 3D glasses beside a medical imaging display in a laboratory"
     },
     {
       "image": "/images/slideshow/miccaikorea.jpeg",
-      "title": "MICCAI in Korea",
+      "title": "Presenting at MICCAI 2025 in Korea",
       "caption": "",
       "alt": "Discussion beside a research poster on confidence in angle predictions for clinical decision support"
+    },
+    {
+      "image": "/images/slideshow/expliainability.jpeg",
+      "title": "Presenting research on explainable AI",
+      "caption": "",
+      "alt": "A presenter discussing model and clinical explainability beside a projected research slide"
+    },
+    {
+      "image": "/images/slideshow/woman_in_cs_president.jpg",
+      "title": "Oxford Women in Computer Science",
+      "caption": "",
+      "alt": "Women in Computer Science group gathered for a photograph"
     }
   ]
 }
