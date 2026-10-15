@@ -20,3 +20,7 @@
 <meta name="theme-color" content="var(--global-bg-color)"/>
 
 <!-- end custom head snippets -->
+
+{% if page.permalink == "/education/" %}
+<link rel="stylesheet" href="{{ '/assets/css/universities.css' | relative_url }}">
+{% endif %}
