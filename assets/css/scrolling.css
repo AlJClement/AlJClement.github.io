@@ -31,3 +31,19 @@ h1, .section-title { font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: 1.13; l
 @media (max-width: 1100px) { :root { --bar-height: 64px; } .topbar { padding: 0 5vw; } .topbar nav { gap: 24px; } .topbar nav a { padding: 16px 0; } }
 @media (max-width: 600px) { body { font-size: 16px; } .panel { padding: 65px 7vw; } .eyebrow { font-size: 10px; } .scroll-footer { flex-wrap: wrap; } }
 @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+
+.slideshow { margin: 42px 0 25px; max-width: 860px; }
+.slideshow > h2 { font-size: 1.5rem; margin: 0 0 18px; }
+.slideshow-stage { border-radius: 10px; overflow: hidden; background: #e8e2f0; }
+.slideshow-slide { margin: 0; }
+.slideshow-slide[hidden], .slideshow-controls[hidden] { display: none; }
+.slideshow-slide img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: contain; background: #e8e2f0; }
+.slideshow-slide figcaption { padding: 16px 22px; background: #fff; }
+.slideshow-slide figcaption strong, .slideshow-slide figcaption span { display: block; }
+.slideshow-slide figcaption span { color: var(--muted); font-size: .9rem; }
+.slideshow-controls { display: flex; align-items: center; gap: 12px; margin-top: 14px; flex-wrap: wrap; }
+.slideshow-controls button { cursor: pointer; border: 1px solid #b2a0c9; background: transparent; color: var(--accent); border-radius: 5px; padding: 9px 17px; font: inherit; font-size: 14px; min-height: 44px; }
+.slideshow-controls button:hover { background: #e8e2f0; }
+.slideshow-controls button:focus-visible { outline: 3px solid #9c71c8; outline-offset: 3px; }
+.slideshow-status { margin: 0; font-size: 14px; color: var(--muted); }
+.slideshow-pause { margin-left: auto; }

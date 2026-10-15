@@ -43,3 +43,11 @@ Author/sidebar details and profile links are in `_config.yml`. Menu labels and o
 ## Scrolling layout
 
 The home page combines all seven Python content files into sections. The top bar scrolls to each section. Edit section text in the same Python files as before. The design is in `assets/css/scrolling.css` and the layout is in `_layouts/scrolling.html`. Older standalone page URLs still work.
+
+## Photo slideshow
+
+1. Put photos (`.jpg`, `.png`, `.webp`, `.gif`, or `.avif`) in `images/slideshow/`. Filename order controls the slideshow order; use names such as `01-oxford.jpg` and `02-conference.jpg`.
+2. Edit `website_pages/slideshow.py` to change the title, rotation speed, and optional per-photo titles, captions, and descriptions. The commented example shows how to specify an order explicitly.
+3. Run `python3 build_academic_website.py`, then commit and push the photos, Python file, and generated `_data/slideshow.json`. Deployment also regenerates this data automatically.
+
+The slideshow appears below your About text once photos are added. It stays hidden when there are no photos. Multiple photos rotate automatically, with previous/next and pause controls. Photos retain their full image without cropping. A single photo displays without rotation controls.

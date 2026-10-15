@@ -1,0 +1,24 @@
+{% assign slideshow = site.data.slideshow %}
+{% if slideshow.slides.size > 0 %}
+<div class="slideshow" role="region" aria-roledescription="carousel" aria-labelledby="slideshow-title" data-interval="{{ slideshow.interval_ms }}">
+  <h2 id="slideshow-title">{{ slideshow.title | escape }}</h2>
+  <div class="slideshow-stage">
+    {% for slide in slideshow.slides %}
+    <figure class="slideshow-slide" role="group" aria-roledescription="slide" aria-label="{{ forloop.index }} of {{ forloop.length }}" {% unless forloop.first %}hidden{% endunless %}>
+      <img src="{{ slide.image | relative_url }}" alt="{{ slide.alt | escape }}" loading="{% if forloop.first %}eager{% else %}lazy{% endif %}" width="1200" height="750">
+      {% if slide.title != '' or slide.caption != '' %}
+      <figcaption>{% if slide.title != '' %}<strong>{{ slide.title | escape }}</strong>{% endif %}{% if slide.caption != '' %}<span>{{ slide.caption | escape }}</span>{% endif %}</figcaption>
+      {% endif %}
+    </figure>
+    {% endfor %}
+  </div>
+  {% if slideshow.slides.size > 1 %}
+  <div class="slideshow-controls" hidden>
+    <button type="button" data-slide="previous" aria-label="Previous photo">←</button>
+    <p class="slideshow-status" aria-live="off">1 / {{ slideshow.slides.size }}</p>
+    <button type="button" data-slide="next" aria-label="Next photo">→</button>
+    <button type="button" class="slideshow-pause" data-slide="pause">Pause slideshow</button>
+  </div>
+  {% endif %}
+</div>
+{% endif %}
