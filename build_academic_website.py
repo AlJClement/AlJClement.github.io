@@ -2,6 +2,7 @@
 """Build Jekyll Markdown pages from the editable website_pages Python files."""
 import argparse
 import json
+import re
 from importlib import import_module
 from pathlib import Path
 
@@ -31,7 +32,8 @@ def build_slideshow(root):
         image = folder / filename
         if Path(filename).name != filename or not image.is_file():
             raise ValueError(f"Slideshow photo not found in images/slideshow/: {filename}")
-        title = entry.get("title", "")
+        default_title = re.sub(r"^\d+[-_ ]*", "", image.stem).replace("-", " ").replace("_", " ").strip() or image.stem
+        title = entry.get("title", default_title)
         slides.append({"image": f"/images/slideshow/{filename}", "title": title,
                        "caption": entry.get("caption", ""),
                        "alt": entry.get("alt", title or image.stem.replace("-", " ").replace("_", " "))})

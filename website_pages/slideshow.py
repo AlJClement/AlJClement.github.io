@@ -1,6 +1,7 @@
 """Edit the slideshow title and optional captions here.
 
 Put your photos in images/slideshow/. They appear in filename order automatically.
+Each photo displays for 5 seconds, with its filename used as its title by default.
 To choose a different order or add captions, fill in SLIDES as in the example.
 """
 
