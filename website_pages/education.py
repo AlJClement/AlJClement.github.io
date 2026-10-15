@@ -9,7 +9,9 @@ author_profile: true
 ---
 
 <div class="education-entry" markdown="1">
-<a class="university-logo university-logo--oxford" href="https://www.ox.ac.uk/" aria-label="University of Oxford"><img src="/images/universities/oxford.svg" alt="University of Oxford logo" loading="lazy"></a>
+<div class="university-logo-wrap" markdown="0">
+<a class="university-logo university-logo--oxford" href="https://www.ox.ac.uk/" aria-label="University of Oxford"><img src="/images/universities/oxford.svg" alt="University of Oxford logo" loading="eager"></a>
+</div>
 <div class="education-details" markdown="1">
 
 ## University of Oxford
@@ -21,7 +23,9 @@ Research in medical image analysis, landmark localisation, multimodal learning, 
 </div>
 
 <div class="education-entry" markdown="1">
-<a class="university-logo university-logo--toronto" href="https://www.utoronto.ca/" aria-label="University of Toronto"><img src="/images/universities/toronto.svg" alt="University of Toronto logo" loading="lazy"></a>
+<div class="university-logo-wrap" markdown="0">
+<a class="university-logo university-logo--toronto" href="https://www.utoronto.ca/" aria-label="University of Toronto"><img src="/images/universities/toronto.svg" alt="University of Toronto logo" loading="eager"></a>
+</div>
 <div class="education-details" markdown="1">
 
 ## University of Toronto
@@ -33,7 +37,9 @@ Computational modelling, mechanical testing, and medical image analysis for spin
 </div>
 
 <div class="education-entry" markdown="1">
-<a class="university-logo university-logo--queens" href="https://www.queensu.ca/" aria-label="Queen's University"><img src="/images/universities/queens.svg" alt="Queen's University logo" loading="lazy"></a>
+<div class="university-logo-wrap" markdown="0">
+<a class="university-logo university-logo--queens" href="https://www.queensu.ca/" aria-label="Queen's University"><img src="/images/universities/queens.svg" alt="Queen's University logo" loading="eager"></a>
+</div>
 <div class="education-details" markdown="1">
 
 ## Queen's University
