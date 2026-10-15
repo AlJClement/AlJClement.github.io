@@ -13,7 +13,6 @@
 <body>
   <a class="skip-link" href="#about">Skip to content</a>
   <header class="topbar">
-    <a class="site-name" href="#about">{{ site.name }}</a>
     <nav aria-label="Main navigation">
       {% for link in site.data.navigation.main %}
       <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
