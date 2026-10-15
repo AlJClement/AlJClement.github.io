@@ -8,9 +8,9 @@ title: "About"
 author_profile: true
 ---
 
-# Allison Clement
+# Allison Clement, MASc, BASc
 
-**DPhil Researcher in Computer Science | University of Oxford**
+<p class="academic-role"><strong>DPhil Researcher in Computer Science | University of Oxford</strong></p>
 
 I am a final-year DPhil researcher at the University of Oxford, working at the intersection of **medical image analysis, machine learning, and clinical decision support**. My research explores how image-derived measurements and clinical information can be combined to develop more interpretable AI systems for healthcare, including applications to ultrasound screening.
 
