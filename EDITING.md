@@ -46,7 +46,7 @@ The home page combines all seven Python content files into sections. The top bar
 
 ## Photo slideshow
 
-1. Put photos (`.jpg`, `.png`, `.webp`, `.gif`, or `.avif`) in `images/slideshow/`. Filename order controls the slideshow order; use names such as `01-Oxford.jpg` and `02-Conference.jpg`. Each photo displays for 5 seconds. Its filename becomes its visible title (for example, `01-Oxford.jpg` displays “Oxford”); you can override this in the Python file.
+1. Put photos (`.jpg`, `.png`, `.webp`, `.gif`, or `.avif`) in `images/slideshow/`. Filename order controls the slideshow order; use names such as `01-Oxford.jpg` and `02-Conference.jpg`. Each photo displays for 2 seconds. Its filename becomes its visible title (for example, `01-Oxford.jpg` displays “Oxford”); you can override this in the Python file.
 2. Edit `website_pages/slideshow.py` to change the title, rotation speed, and optional per-photo titles, captions, and descriptions. The commented example shows how to specify an order explicitly.
 3. Run `python3 build_academic_website.py`, then commit and push the photos, Python file, and generated `_data/slideshow.json`. Deployment also regenerates this data automatically.
 

@@ -37,7 +37,7 @@ def build_slideshow(root):
         slides.append({"image": f"/images/slideshow/{filename}", "title": title,
                        "caption": entry.get("caption", ""),
                        "alt": entry.get("alt", title or image.stem.replace("-", " ").replace("_", " "))})
-    data = {"title": TITLE, "interval_ms": max(3, INTERVAL_SECONDS) * 1000, "slides": slides}
+    data = {"title": TITLE, "interval_ms": max(1, INTERVAL_SECONDS) * 1000, "slides": slides}
     target = root / "_data" / "slideshow.json"
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
