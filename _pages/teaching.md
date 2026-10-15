@@ -9,7 +9,7 @@ I enjoy helping students explore technical ideas through hands-on exercises, ope
 
 ## University teaching
 
-Teaching assistant, lecturer, and assessment support across the **University of Oxford, University of Toronto, and Queen's University**. Courses and dates can be added here.
+Teaching assistant, lecturer, and assessment support across the **University of Oxford, University of Toronto, and Queen's University**.
 
 ## Girls Who ML
 

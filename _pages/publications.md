@@ -5,7 +5,7 @@ title: "Publications"
 author_profile: true
 ---
 
-Selected publications and conference papers. **Add DOI, PDF, and code links once checked.**
+Selected publications and conference papers.
 
 ## Medical AI and image analysis
 
