@@ -1,16 +1,16 @@
 # Academic Pages top navigation
 main:
   - title: "About"
-    url: /
+    url: /#about
   - title: "Education"
-    url: /education/
+    url: /#education
   - title: "Experience"
-    url: /experience/
+    url: /#experience
   - title: "Publications"
-    url: /publications/
+    url: /#publications
   - title: "Teaching"
-    url: /teaching/
+    url: /#teaching
   - title: "Volunteering"
-    url: /volunteering/
+    url: /#volunteering
   - title: "CV"
-    url: /cv/
+    url: /#cv

@@ -39,3 +39,7 @@ git push
 GitHub Actions also generates the pages automatically before deploying, so editing a Python page directly on GitHub works too.
 
 Author/sidebar details and profile links are in `_config.yml`. Menu labels and order are in `_data/navigation.yml`. Template utility pages such as the sitemap remain in `_pages/`.
+
+## Scrolling layout
+
+The home page combines all seven Python content files into sections. The top bar scrolls to each section. Edit section text in the same Python files as before. The design is in `assets/css/scrolling.css` and the layout is in `_layouts/scrolling.html`. Older standalone page URLs still work.

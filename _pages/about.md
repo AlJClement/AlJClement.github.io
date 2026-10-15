@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: scrolling
 permalink: /
 title: "About"
 author_profile: true
@@ -15,6 +15,6 @@ My background spans mechanical engineering, biomedical engineering, and computer
 
 I enjoy interdisciplinary research, teaching, and widening participation in STEM.
 
-**Explore:** [Education](/education/) · [Experience](/experience/) · [Publications](/publications/) · [Teaching](/teaching/) · [Volunteering & Outreach](/volunteering/)
+**Explore:** [Education](#education) · [Experience](#experience) · [Publications](#publications) · [Teaching](#teaching) · [Volunteering & Outreach](#volunteering)
 
 [Google Scholar](https://scholar.google.com/citations?user=QKPvEggAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/allison-clement-082b17b5/)

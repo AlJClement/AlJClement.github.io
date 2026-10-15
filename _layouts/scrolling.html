@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title | escape }} — Research &amp; Teaching</title>
+  <meta name="description" content="{{ site.description | escape }}">
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/images/favicon.svg' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/scrolling.css' | relative_url }}">
+  <script src="{{ '/assets/js/scrolling.js' | relative_url }}" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <header class="topbar">
+    <a class="site-name" href="#about">{{ site.name }}</a>
+    <nav aria-label="Main navigation">
+      {% for link in site.data.navigation.main %}
+      <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
+  </header>
+  <main>
+    <section id="about" class="panel intro" aria-labelledby="about-heading">
+      <div class="panel-inner">
+        <p class="eyebrow">Medical imaging · Machine learning · Healthcare</p>
+        <div class="section-content">{{ content | replace: '<h1', '<h1 id="about-heading"' }}</div>
+        <a class="next-section" href="#education">Explore my background <span aria-hidden="true">↓</span></a>
+      </div>
+    </section>
+    {% assign section_names = 'education,experience,publications,teaching,volunteering,cv' | split: ',' %}
+    {% for section_name in section_names %}
+      {% assign section_path = '_pages/' | append: section_name | append: '.md' %}
+      {% assign section_page = site.pages | where: 'path', section_path | first %}
+      <section id="{{ section_name }}" class="panel" aria-labelledby="{{ section_name }}-heading">
+        <div class="panel-inner">
+          <p class="eyebrow">{{ forloop.index | prepend: '0' }} / {{ section_page.title }}</p>
+          <h2 id="{{ section_name }}-heading" class="section-title">{{ section_page.title }}</h2>
+          <div class="section-content">{{ section_page.content | markdownify }}</div>
+        </div>
+      </section>
+    {% endfor %}
+  </main>
+  <footer class="scroll-footer">© {{ site.time | date: '%Y' }} {{ site.name }} <a href="#about">Back to top ↑</a></footer>
+</body>
+</html>
