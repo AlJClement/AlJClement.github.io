@@ -1,10 +1,10 @@
 # Workflow for building and deploying an Academic Pages / Jekyll site to GitHub Pages
-name: Deploy Academic Pages template site to Pages
+name: Deploy academic website to Pages
 
 on:
   # Runs on pushes targeting the default branch
   push:
-    branches: ["master"]
+    branches: ["main"]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -27,22 +27,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v7.0.1
+        uses: actions/checkout@v4
       - name: Setup Ruby, JRuby and TruffleRuby
-        uses: ruby/setup-ruby@v1.328.0
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1'
+          ruby-version: '3.2'
           bundler-cache: true
           cache-version: 0
       - name: Configure GitHub Pages
-        uses: actions/configure-pages@v6.0.0
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
       - name: Upload GitHub Pages artifact
-        uses: actions/upload-pages-artifact@v5.0.0
+        uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
