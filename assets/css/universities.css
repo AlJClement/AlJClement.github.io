@@ -7,3 +7,6 @@
 .education-details h2 { margin-top: 0; }
 @media (max-width: 700px) { .education-entry { grid-template-columns: 160px minmax(0, 1fr); gap: 20px; } .university-logo { padding: 16px; min-height: 108px; } .university-logo img { height: 72px; } }
 @media (max-width: 480px) { .education-entry { grid-template-columns: 1fr; grid-template-areas: "logo" "details"; } .university-logo-wrap { width: 180px; justify-self: start; } }
+
+.experience-logo { background: white; border: 1px solid #e5dfed; }
+.experience-logo--dark { background: #002147; }
