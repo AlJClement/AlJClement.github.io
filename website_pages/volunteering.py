@@ -8,7 +8,7 @@ title: "Volunteering & Outreach"
 author_profile: true
 ---
 
-I care about widening access to STEM and building environments where people feel confident exploring unfamiliar subjects.
+I care about widening access to STEM and building environments where people feel confident exploring new subjects.
 
 ## Academic leadership and inclusion
 
