@@ -12,10 +12,7 @@ Publications and selected conference abstracts. [Full Google Scholar profile](ht
 
 ## Medical AI and image analysis
 
-- **From Landmark Uncertainty to Clinical Confidence: Screening for Developmental Dysplasia of the Hip.**
-  *Allison Clement, James Willoughby, Daniel C. Perry and Irina Voiculescu.*
-  In *Frontiers in Medical Technology*, Vol. 8, September 2026.
-  [Details](https://www.cs.ox.ac.uk/publications/publication17189-abstract.html) · [BibTeX](https://www.cs.ox.ac.uk/publications/publication17189.bib) · [Article](https://www.frontiersin.org/journals/medical-technology/articles/10.3389/fmedt.2026.1914040/abstract) · [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&user=QKPvEggAAAAJ&citation_for_view=QKPvEggAAAAJ%3A3fE2CSJIrl8C&hl=en)
+- **From Landmark Uncertainty to Clinical Confidence: Screening for Developmental Dysplasia of the Hip.** *Frontiers in Medical Technology*, Vol. 8, 2026. [Details](https://www.cs.ox.ac.uk/publications/publication17189-abstract.html) · [BibTeX](https://www.cs.ox.ac.uk/publications/publication17189.bib) · [Article](https://www.frontiersin.org/journals/medical-technology/articles/10.3389/fmedt.2026.1914040/abstract) · [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&user=QKPvEggAAAAJ&citation_for_view=QKPvEggAAAAJ%3A3fE2CSJIrl8C&hl=en)
 
 - **Quantifying Contributions within Multimodal Fusion for Clinical Decisions.** ML-CDS Workshop, MICCAI, 2026. [Paper](https://openreview.net/forum?id=I0g7EaXGAz) [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&user=QKPvEggAAAAJ&citation_for_view=QKPvEggAAAAJ%3AMXK_kJrjxJIC&hl=en)
 - **Confidence in angle predictions for clinical decision support.** MICCAI, 2025. [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&user=QKPvEggAAAAJ&citation_for_view=QKPvEggAAAAJ%3AUebtZRa9Y70C&hl=en)
