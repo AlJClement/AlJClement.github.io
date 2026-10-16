@@ -24,7 +24,7 @@
     <section id="about" class="panel intro" aria-labelledby="about-heading">
       <div class="panel-inner">
         <p class="eyebrow">Medical imaging · Machine learning · Healthcare</p>
-        <div class="section-content">{{ content | replace: '<h1', '<h1 id="about-heading"' }}</div>
+        <div class="section-content">{{ content | replace_first: '<h1', '<h1 id="about-heading"' }}</div>
         {% include slideshow.html %}
         <a class="next-section" href="#education">Explore my background <span aria-hidden="true">↓</span></a>
       </div>

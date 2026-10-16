@@ -8,17 +8,17 @@ title: "About"
 author_profile: true
 ---
 
-# Allison Clement, MASc, BASc
+# Allison Clement
 
-<p class="academic-role"><strong>DPhil Researcher in Computer Science | University of Oxford</strong></p>
+<p class="academic-role"><strong> BASc, MASc, DPhil Researcher in Computer Science | University of Oxford</strong></p>
 
 I am a final-year DPhil researcher at the University of Oxford, working at the intersection of **medical image analysis, machine learning, and clinical decision support**. My research explores how image-derived measurements and clinical information can be combined to develop more interpretable AI systems for healthcare, including applications to ultrasound screening.
 
-My background spans mechanical engineering, biomedical engineering, and computer science. Before my DPhil, I worked on research and development in healthcare, including surgical technologies and AI-based cancer applications.
+My background spans mechanical engineering, biomedical engineering, and computer science. Before my DPhil, I worked on research and development in healthcare, including surgical technologies and AI-based cancer applications (where I still consult to date).
 
 I enjoy interdisciplinary research, teaching, and widening participation in STEM.
 
-**Explore:** [Education](#education) · [Experience](#experience) · [Publications](#publications) · [Teaching](#teaching) · [Volunteering & Outreach](#volunteering)
+# **Explore:** [Education](#education) · [Experience](#experience) · [Publications](#publications) · [Teaching](#teaching) · [Volunteering & Outreach](#volunteering)
 
 [Google Scholar](https://scholar.google.com/citations?user=QKPvEggAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/allison-clement-082b17b5/)
 """
