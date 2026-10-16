@@ -8,17 +8,27 @@ title: "Teaching"
 author_profile: true
 ---
 
-I enjoy helping students explore technical ideas through hands-on exercises, open questions, and real-world applications.
+My teaching experience spans engineering, machine learning, and computer vision, with responsibilities including teaching assistance, lecturing, and assessment support.
 
 ## University teaching
 
-Teaching assistant, lecturer, and assessment support across the **University of Oxford, University of Toronto, and Queen's University**.
+### University of Oxford
+*Oxford Internet Institute*
 
-## Girls Who ML
+- **Computer vision and deep learning in healthcare** · 2025–2026
+- **Machine learning** · 2025–present
 
-Delivered machine learning teaching and outreach activities, making technical concepts accessible to younger learners.
+### University of Toronto
 
-## Academic taster sessions
+- **Engineering Strategies and Practice** · 2017–2019
 
-Interested in introducing students to **AI in medicine**, engineering design, and the research process—from framing a question to interpreting results. Sessions can combine computer vision examples, hands-on prediction activities, and discussion of the opportunities and limitations of medical AI.
+### Queen's University
+
+- **Engineering practice and MATLAB** · 2015–2017
+
+## Outreach teaching
+
+### Girls Who ML
+
+Delivered machine learning teaching and outreach activities, introducing technical concepts to younger learners in an accessible format.
 """
