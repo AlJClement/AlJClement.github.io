@@ -10,3 +10,15 @@
 
 .experience-logo { background: white; border: 1px solid #e5dfed; }
 .experience-logo--dark { background: #002147; }
+
+/* Compact logos on the right of work experience entries. */
+.education-entry.experience-entry { grid-template-columns: minmax(0, 1fr) 140px; grid-template-areas: "details logo"; gap: 28px; }
+.experience-entry .university-logo-wrap { width: 140px; justify-self: end; }
+.experience-entry .experience-logo { min-height: 88px; padding: 16px; }
+.experience-entry .experience-logo img { height: 52px; }
+@media (max-width: 600px) {
+  .education-entry.experience-entry { grid-template-columns: minmax(0, 1fr) 100px; gap: 16px; }
+  .experience-entry .university-logo-wrap { width: 100px; }
+  .experience-entry .experience-logo { min-height: 68px; padding: 10px; }
+  .experience-entry .experience-logo img { height: 40px; }
+}
