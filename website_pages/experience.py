@@ -15,7 +15,7 @@ author_profile: true
 <div class="education-details" markdown="1">
 
 ## AI Research Consultant — PictureHealth
-**March 2022 – present** *(confirm current appointment dates)*
+**March 2022 – present**
 
 Development and implementation of AI approaches to cancer detection and prediction of clinical outcomes.
 
