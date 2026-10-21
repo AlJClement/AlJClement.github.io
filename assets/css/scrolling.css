@@ -1,5 +1,5 @@
 /* Scrolling academic portfolio. */
-:root { --ink: #263e39; --muted: #5b706a; --accent: #28695d; --bar: #e9f3f2; --bar-height: 60px; }
+:root { --ink: #263e39; --muted: #5b706a; --accent: #28695d; --bar: #fff; --bar-height: 60px; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: var(--bar-height); }
 body { margin: 0; color: var(--ink); background: #f8fbfa; font: 17px/1.8 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
