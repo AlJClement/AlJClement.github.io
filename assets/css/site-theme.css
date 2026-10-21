@@ -1,0 +1,36 @@
+/* Shared palette and portrait treatment for every page layout. */
+:root {
+  --global-base-color: #28695d;
+  --global-bg-color: #f8fbfa;
+  --global-footer-bg-color: #edf5f2;
+  --global-border-color: #cadfdb;
+  --global-link-color: #28695d;
+  --global-link-color-hover: #204f47;
+  --global-link-color-visited: #28695d;
+  --global-masthead-link-color: #345651;
+  --global-masthead-link-color-hover: #204f47;
+  --global-text-color: #263e39;
+  --global-text-color-light: #5b706a;
+}
+/* Preserve readable colours when the theme toggle selects dark mode. */
+html[data-theme="dark"] {
+  --global-bg-color: #192d29;
+  --global-footer-bg-color: #14241f;
+  --global-border-color: #47675e;
+  --global-text-color: #e5f1ec;
+  --global-text-color-light: #abc8bd;
+  --global-link-color: #9dd7c5;
+  --global-link-color-hover: #c5eade;
+  --global-link-color-visited: #9dd7c5;
+}
+.masthead, .masthead .greedy-nav, .masthead__menu-item { background: #e9f3f2; }
+.masthead { border-bottom: 1px solid #cadfdb; box-shadow: 0 4px 20px #173e3a0a; }
+.masthead .greedy-nav a { color: #345651; border-radius: 999px; }
+.masthead .greedy-nav .visible-links a { padding: 8px 13px; margin: 4px; }
+.masthead .greedy-nav .visible-links a::before { display: none; }
+.masthead .greedy-nav a:hover { background: #d5e9e4; color: #204f47; }
+.masthead .masthead__menu-item.selected a { background: #28695d; color: white; border-bottom: 0; }
+.masthead .greedy-nav button { background: #28695d; }
+.masthead .greedy-nav .hidden-links { background: #e9f3f2; }
+.author__avatar img { width: 112px; height: 112px; border-radius: 50%; object-fit: cover; object-position: 50% 22%; padding: 0; border: 3px solid white; box-shadow: 0 0 0 1px #cadfdb; }
+a:focus-visible { outline: 2px solid #568d7e; outline-offset: 3px; }

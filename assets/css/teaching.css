@@ -1,14 +1,14 @@
 /* Shared by the home page teaching section and the standalone page. */
 .teaching-list { display: grid; gap: 16px; margin: 22px 0 32px; }
-.teaching-card { padding: 24px 28px; border: 1px solid #e5dfed; border-left: 4px solid #28695d; border-radius: 8px; background: #fff; color: #302c40; }
+.teaching-card { padding: 24px 28px; border: 1px solid #cadfdb; border-left: 4px solid #28695d; border-radius: 8px; background: #fff; color: #263e39; }
 .teaching-card h3 { margin: 0 0 12px; font-size: 1.12em; line-height: 1.4; }
-.teaching-card a { color: #65439b; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
+.teaching-card a { color: #28695d; text-decoration: underline; text-underline-offset: 4px; text-decoration-thickness: 1px; }
 .teaching-card a:hover { color: #4b2e79; text-decoration-thickness: 2px; }
-.teaching-card a:focus-visible { outline: 3px solid #9c71c8; outline-offset: 4px; border-radius: 2px; }
+.teaching-card a:focus-visible { outline: 3px solid #568d7e; outline-offset: 4px; border-radius: 2px; }
 .teaching-card .teaching-affiliation { margin: -4px 0 18px; font-size: .9em; }
 .teaching-card .teaching-courses { list-style: none; padding: 0; margin: 0; }
-.teaching-card .teaching-courses li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px 24px; margin: 0; padding: 12px 0; border-top: 1px solid #eee9f3; }
-.teaching-date { flex-shrink: 0; color: #656073; font-size: .88em; font-variant-numeric: tabular-nums; }
+.teaching-card .teaching-courses li { display: flex; justify-content: space-between; align-items: baseline; gap: 12px 24px; margin: 0; padding: 12px 0; border-top: 1px solid #e4eeea; }
+.teaching-date { flex-shrink: 0; color: #5b706a; font-size: .88em; font-variant-numeric: tabular-nums; }
 .teaching-card--outreach { border-left-color: #77a99b; }
 .teaching-card--outreach p { margin: 0 0 16px; }
 .teaching-link { display: inline-flex; gap: 12px; align-items: center; font-size: .9em; font-weight: 600; }

@@ -23,7 +23,7 @@ repository               : "AlJClement/AlJClement.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "headshot.jpg"
   name             : "Allison Clement"
   pronouns         : # example: "she/her"  
   bio              : "DPhil researcher in Computer Science. Medical image analysis, machine learning, and clinical decision support."
