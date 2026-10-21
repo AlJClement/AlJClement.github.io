@@ -24,7 +24,7 @@ My background spans mechanical engineering, biomedical engineering, and computer
 I enjoy interdisciplinary research, teaching, and widening participation in STEM.
 
 
-[Google Scholar](https://scholar.google.com/citations?user=QKPvEggAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/allison-clement-082b17b5/) · [GitHub](https://github.com/AlJClement?tab=repositories)
+[GitHub](https://github.com/AlJClement?tab=repositories) · [Google Scholar](https://scholar.google.com/citations?user=QKPvEggAAAAJ&hl=en) · [LinkedIn](https://www.linkedin.com/in/allison-clement-082b17b5/)
 """
 
 
