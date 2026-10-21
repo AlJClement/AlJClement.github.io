@@ -21,6 +21,7 @@
       <a href="{{ link.url | relative_url }}">{{ link.title }}</a>
       {% endfor %}
     </nav>
+    <a class="site-name" href="{{ '/' | relative_url }}">{{ site.name | escape }}</a>
   </header>
   <main>
     <section id="about" class="panel intro" aria-labelledby="about-heading">

@@ -50,3 +50,15 @@ html[data-theme="dark"] {
 .masthead .greedy-nav .hidden-links { background: #fff; }
 .author__avatar img { width: 112px; height: 112px; border-radius: 50%; object-fit: cover; object-position: 50% 22%; padding: 0; border: 3px solid white; box-shadow: 0 0 0 1px #cadfdb; }
 a:focus-visible { outline: 2px solid #568d7e; outline-offset: 3px; }
+
+/* Keep the site name anchored at the right of both navigation layouts. */
+.topbar { justify-content: space-between; gap: 24px; }
+.topbar nav { min-width: 0; }
+.site-name { flex-shrink: 0; margin-left: auto; color: #28695d; font-size: 15px; font-weight: 650; letter-spacing: -.02em; white-space: nowrap; text-decoration: none; }
+.topbar .site-name { color: #28695d; }
+.masthead__inner-wrap { display: flex; align-items: center; gap: 24px; }
+.masthead__menu { flex: 1; min-width: 0; }
+@media (max-width: 600px) {
+  .topbar, .masthead__inner-wrap { gap: 12px; }
+  .site-name { font-size: 13px; }
+}
