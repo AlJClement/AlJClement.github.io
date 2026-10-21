@@ -24,3 +24,7 @@
 {% if page.permalink == "/education/" or page.permalink == "/experience/" %}
 <link rel="stylesheet" href="{{ '/assets/css/universities.css' | relative_url }}?v=5">
 {% endif %}
+
+{% if page.permalink == "/teaching/" %}
+<link rel="stylesheet" href="{{ "/assets/css/teaching.css" | relative_url }}">
+{% endif %}

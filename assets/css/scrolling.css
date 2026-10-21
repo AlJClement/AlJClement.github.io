@@ -1,5 +1,5 @@
 /* Scrolling academic portfolio. */
-:root { --ink: #302c40; --muted: #656073; --accent: #65439b; --bar: #2e2345; --bar-height: 82px; }
+:root { --ink: #302c40; --muted: #656073; --accent: #65439b; --bar: #e9f3f2; --bar-height: 82px; }
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: var(--bar-height); }
 body { margin: 0; color: var(--ink); background: #faf9fc; font: 17px/1.8 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
@@ -8,11 +8,13 @@ a:hover { color: #8b5bb8; }
 a:focus-visible { outline: 3px solid #c894ee; outline-offset: 5px; }
 .skip-link { position: fixed; top: -100px; left: 12px; z-index: 20; background: white; padding: 12px; }
 .skip-link:focus { top: 8px; }
-.topbar { position: fixed; inset: 0 0 auto; z-index: 10; min-height: var(--bar-height); display: flex; align-items: center; justify-content: center; gap: 24px; padding: 0 5vw; background: var(--bar); box-shadow: 0 2px 14px #1a122526; }
-.topbar a { color: #ddd5e9; text-decoration: none; }
-.topbar nav { display: flex; gap: 23px; overflow-x: auto; align-self: stretch; scrollbar-width: thin; }
-.topbar nav a { display: flex; align-items: center; position: relative; padding: 20px 0; font-size: 12px; font-weight: 650; text-transform: uppercase; letter-spacing: .08em; white-space: nowrap; border-bottom: 3px solid transparent; }
-.topbar nav a:hover, .topbar nav a[aria-current="location"] { color: white; border-bottom-color: #c5a0e8; }
+.topbar { position: fixed; inset: 0 0 auto; z-index: 10; height: var(--bar-height); display: flex; align-items: center; justify-content: center; padding: 0 5vw; background: var(--bar); border-bottom: 1px solid #cadfdb; box-shadow: 0 4px 20px #173e3a0a; }
+.topbar a { color: #345651; text-decoration: none; }
+.topbar nav { display: flex; align-items: center; gap: 6px; max-width: 100%; overflow-x: auto; padding: 7px 4px; scrollbar-width: thin; scrollbar-color: #92b8b0 transparent; }
+.topbar nav a { display: flex; align-items: center; justify-content: center; min-height: 44px; padding: 9px 17px; border-radius: 999px; font-size: 13px; font-weight: 600; letter-spacing: .015em; white-space: nowrap; transition: background-color .18s ease, color .18s ease; }
+.topbar nav a:hover { color: #204f47; background: #d5e9e4; }
+.topbar nav a[aria-current="location"] { color: #fff; background: #28695d; box-shadow: 0 2px 6px #28695d24; }
+.topbar nav a:focus-visible { outline: 2px solid #28695d; outline-offset: 2px; }
 main { padding-top: var(--bar-height); }
 .panel { min-height: calc(100svh - var(--bar-height)); display: flex; align-items: center; padding: 90px 7vw; border-bottom: 1px solid #e5dfed; scroll-margin-top: 0; }
 .panel:nth-child(even) { background: #efebf5; }
@@ -28,9 +30,9 @@ h1, .section-title { font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: 1.13; l
 .section-content ul { padding-left: 22px; }
 .next-section { display: inline-flex; gap: 32px; border: 1px solid #b2a0c9; border-radius: 4px; padding: 11px 24px; margin-top: 20px; text-decoration: none; font-size: 14px; font-weight: 600; }
 .scroll-footer { display: flex; justify-content: space-between; gap: 24px; padding: 30px 7vw; color: var(--muted); font-size: 14px; }
-@media (max-width: 1100px) { :root { --bar-height: 64px; } .topbar { padding: 0 5vw; } .topbar nav { gap: 24px; } .topbar nav a { padding: 16px 0; } }
+@media (max-width: 1100px) { :root { --bar-height: 64px; } .topbar { padding: 0 5vw; } .topbar nav { gap: 4px; } .topbar nav a { padding: 8px 13px; } }
 @media (max-width: 600px) { body { font-size: 16px; } .panel { padding: 65px 7vw; } .eyebrow { font-size: 10px; } .scroll-footer { flex-wrap: wrap; } }
-@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } .topbar nav a { transition: none; } }
 
 .slideshow { margin: 42px 0 25px; max-width: 860px; }
 .slideshow > h2 { font-size: 1.5rem; margin: 0 0 18px; }
@@ -47,3 +49,13 @@ h1, .section-title { font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: 1.13; l
 .slideshow-controls button:focus-visible { outline: 3px solid #9c71c8; outline-offset: 3px; }
 .slideshow-status { margin: 0; font-size: 14px; color: var(--muted); }
 .slideshow-pause { margin-left: auto; }
+
+/* Circular portrait beside the introductory heading. */
+.intro-heading { display: flex; align-items: center; gap: 24px; margin-bottom: 35px; }
+.intro-heading h1 { margin: 0; }
+.intro-headshot { display: block; width: 112px; height: 112px; flex-shrink: 0; border-radius: 50%; object-fit: cover; object-position: 50% 22%; border: 3px solid #fff; box-shadow: 0 0 0 1px #cadfdb, 0 4px 16px #173e3a14; }
+@media (max-width: 600px) {
+  .intro-heading { gap: 16px; }
+  .intro-headshot { width: 80px; height: 80px; }
+  .intro-heading h1 { font-size: clamp(1.8rem, 7vw, 2.4rem); }
+}
