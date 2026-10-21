@@ -23,10 +23,26 @@ html[data-theme="dark"] {
   --global-link-color-hover: #c5eade;
   --global-link-color-visited: #9dd7c5;
 }
-.masthead, .masthead .greedy-nav, .masthead__menu-item { background: #e9f3f2; }
-.masthead { border-bottom: 1px solid #cadfdb; box-shadow: 0 4px 20px #173e3a0a; }
+.masthead .greedy-nav, .masthead__menu-item { background: transparent; }
+/* A slim decorative edge shared by both navigation layouts. */
+.topbar, .masthead {
+  background: linear-gradient(110deg, #dceee8, #f5faf7 55%, #e3eeed);
+  border-bottom: 1px solid #c0d8d0;
+  box-shadow: 0 3px 14px #173e3a0c;
+}
+.topbar::after, .masthead::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #77a99b 25%, #28695d 50%, #77a99b 75%, transparent);
+  pointer-events: none;
+}
+.masthead__inner-wrap { padding-top: 3px; padding-bottom: 3px; }
+.masthead .greedy-nav { min-height: 50px; }
+.masthead .greedy-nav .visible-links { align-items: center; }
 .masthead .greedy-nav a { color: #345651; border-radius: 999px; }
-.masthead .greedy-nav .visible-links a { padding: 8px 13px; margin: 4px; }
+.masthead .greedy-nav .visible-links a { padding: 6px 12px; margin: 2px; font-size: 13px; min-height: 36px; }
 .masthead .greedy-nav .visible-links a::before { display: none; }
 .masthead .greedy-nav a:hover { background: #d5e9e4; color: #204f47; }
 .masthead .masthead__menu-item.selected a { background: #28695d; color: white; border-bottom: 0; }
