@@ -17,12 +17,6 @@ SLIDES = [
         "alt": "Researchers wearing 3D glasses beside a medical imaging display in a laboratory",
     },
     {
-        "image": "miccaikorea.jpeg",
-        "title": "Presenting at MICCAI 2025 in Korea",
-        "caption": "",
-        "alt": "Discussion beside a research poster on confidence in angle predictions for clinical decision support",
-    },
-    {
         "image": "expliainability.jpeg",
         "title": "Presenting research on explainable AI",
         "caption": "",
