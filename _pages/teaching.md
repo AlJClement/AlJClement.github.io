@@ -12,7 +12,6 @@ My teaching experience spans engineering, machine learning, and computer vision,
 <div class="teaching-list">
   <div class="teaching-card">
     <h3>University of Oxford</h3>
-    <p class="teaching-affiliation"><a href="https://www.oii.ox.ac.uk/">Oxford Internet Institute</a></p>
     <ul class="teaching-courses">
       <li><a href="https://www.cs.ox.ac.uk/teaching/courses/2026-2027/vision/">Computer vision and deep learning in healthcare</a><span class="teaching-date">2025–2026</span></li>
       <li><a href="https://www.oii.ox.ac.uk/study/msc-in-social-data-science/">Machine learning</a><span class="teaching-date">2025–present</span></li>
