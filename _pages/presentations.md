@@ -18,16 +18,18 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://ora.ox.ac.uk/objects/uuid:97525050-1774-449b-ab6e-9740e28b3405">Oxford research record <span aria-hidden="true">↗</span></a>
     </div>
   </article>
-  <article class="presentation-card">
+  <article class="presentation-card presentation-card--with-photo">
+    <div class="presentation-description">
     <p class="presentation-meta">2025 · Poster presentation</p>
     <h3>Confidence in Angle Predictions for Clinical Decision Support</h3>
     <p class="presentation-venue">MICCAI 2025 · Daejeon, South Korea</p>
     <p>Presented research exploring predictive uncertainty in angle measurements and its role in more reliable clinical decision support.</p>
-    <a class="presentation-photo" href="{{ '/images/slideshow/miccaikorea.jpeg' | relative_url }}"><img src="{{ '/images/slideshow/miccaikorea.jpeg' | relative_url }}" alt="Discussion beside the Confidence in Angle Predictions research poster at MICCAI 2025" loading="lazy"></a>
     <div class="presentation-links">
       <a href="https://www.linkedin.com/posts/allison-clement-082b17b5_miccai2025-medicalimaging-ai-activity-7378754052316221441-NrUz">LinkedIn post <span aria-hidden="true">↗</span></a>
       <a href="https://ora.ox.ac.uk/objects/uuid:1e1aed93-ca62-4c76-9dd3-78714674a7f4">Read the paper <span aria-hidden="true">↗</span></a>
     </div>
+    </div>
+    <a class="presentation-photo" href="{{ '/images/presentations/miccai2025.jpeg' | relative_url }}"><img src="{{ '/images/presentations/miccai2025.jpeg' | relative_url }}" alt="Allison Clement beside her research poster at MICCAI 2025" loading="lazy"></a>
   </article>
   <article class="presentation-card">
     <p class="presentation-meta">2024 · Research presentation</p>
@@ -39,7 +41,8 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://scholar.google.com/citations?view_op=view_citation&amp;user=QKPvEggAAAAJ&amp;citation_for_view=QKPvEggAAAAJ%3AeQOLeE2rZwMC&amp;hl=en">Publication details <span aria-hidden="true">↗</span></a>
     </div>
   </article>
-  <article class="presentation-card">
+  <article class="presentation-card presentation-card--with-photo">
+    <div class="presentation-description">
     <p class="presentation-meta">2024 · Conference presentation</p>
     <h3>Landmark-Based Screening: Femoral Head Coverage and Graf Classification in Infant Developmental Dysplasia of the Hip</h3>
     <p class="presentation-venue">Women in Computer Vision (WiCV) Workshop · ECCV 2024 · Milan, Italy</p>
@@ -47,8 +50,11 @@ Selected conference posters, research talks, and presentations on medical imagin
     <div class="presentation-links">
       <a href="https://ora.ox.ac.uk/objects/uuid:91477c27-5f66-4391-92c0-4a7846ddfe34">Read the paper <span aria-hidden="true">↗</span></a>
     </div>
+    </div>
+    <a class="presentation-photo" href="{{ '/images/presentations/eccv2024.jpeg' | relative_url }}"><img src="{{ '/images/presentations/eccv2024.jpeg' | relative_url }}" alt="Allison Clement presenting infant hip screening research at ECCV 2024" loading="lazy"></a>
   </article>
-  <article class="presentation-card">
+  <article class="presentation-card presentation-card--with-photo">
+    <div class="presentation-description">
     <p class="presentation-meta">2024 · Conference presentation</p>
     <h3>Improving Automated Ultrasound Infant Hip Screening Using an Integrated Clinical Classification Loss</h3>
     <p class="presentation-venue">Medical Image Understanding and Analysis (MIUA 2024) · Manchester, UK</p>
@@ -57,6 +63,17 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://ora.ox.ac.uk/objects/uuid:c0b1235a-81f3-4be0-9aa9-1967b97ca5c2">Read the paper <span aria-hidden="true">↗</span></a>
       <a href="https://miua2024.github.io/docs/MIUA_Programme_Final.pdf">Conference programme <span aria-hidden="true">↗</span></a>
     </div>
+    </div>
+    <a class="presentation-photo" href="{{ '/images/presentations/miua2024.jpeg' | relative_url }}"><img src="{{ '/images/presentations/miua2024.jpeg' | relative_url }}" alt="Allison Clement beside her infant hip ultrasound screening poster at MIUA 2024" loading="lazy"></a>
+  </article>
+  <article class="presentation-card presentation-card--with-photo">
+    <div class="presentation-description">
+      <p class="presentation-meta">Poster discussion</p>
+      <h3>Confidence in Angle Predictions for Clinical Decision Support</h3>
+      <p class="presentation-venue">Oxford Computer Science Conference</p>
+      <p>Discussing research on predictive uncertainty and clinical decision support with fellow researchers.</p>
+    </div>
+    <a class="presentation-photo presentation-photo--people" href="{{ '/images/presentations/comptuerscience_conference.jpeg' | relative_url }}"><img src="{{ '/images/presentations/comptuerscience_conference.jpeg' | relative_url }}" alt="Researchers discussing a poster at the Oxford Computer Science Conference" loading="lazy"></a>
   </article>
 </div>
 

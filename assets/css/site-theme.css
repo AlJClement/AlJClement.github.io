@@ -84,3 +84,14 @@ a:focus-visible { outline: 2px solid #568d7e; outline-offset: 3px; }
 .social-logo--linkedin::before { content: '\f08c'; }
 .social-logo--scholar { font-family: 'Profile Academic'; }
 .social-logo--scholar::before { content: '\e9d4'; }
+
+/* Place event photographs alongside their descriptions. */
+.presentation-card--with-photo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(180px, 34%); gap: 26px; align-items: start; }
+.presentation-description { min-width: 0; }
+.presentation-card--with-photo .presentation-photo { width: 100%; max-width: none; margin: 0; overflow: hidden; border-radius: 6px; }
+.presentation-photo--people { position: relative; aspect-ratio: 1541 / 1238; }
+.presentation-photo--people img { position: absolute; top: 0; left: 0; width: 100%; height: auto; border-radius: 0; }
+@media (max-width: 1000px) {
+  .presentation-card--with-photo { grid-template-columns: minmax(0, 1fr); }
+  .presentation-card--with-photo .presentation-photo { max-width: 440px; }
+}
