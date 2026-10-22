@@ -19,7 +19,7 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://ora.ox.ac.uk/objects/uuid:97525050-1774-449b-ab6e-9740e28b3405">Oxford research record <span aria-hidden="true">↗</span></a>
     </div>
     </div>
-    <a class="presentation-photo" href="{{ '/images/presentations/miccai2026.jpeg' | relative_url }}"><img src="{{ '/images/presentations/miccai2026.jpeg' | relative_url }}" alt="Allison Clement presenting multimodal clinical decision support research at MICCAI 2026" loading="lazy"></a>
+    <a class="presentation-photo" href="/images/presentations/miccai2026.jpeg"><img src="/images/presentations/miccai2026.jpeg" alt="Allison Clement presenting multimodal clinical decision support research at MICCAI 2026" loading="lazy"></a>
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
@@ -32,7 +32,7 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://ora.ox.ac.uk/objects/uuid:1e1aed93-ca62-4c76-9dd3-78714674a7f4">Read the paper <span aria-hidden="true">↗</span></a>
     </div>
     </div>
-    <a class="presentation-photo" href="{{ '/images/presentations/miccai2025.jpeg' | relative_url }}"><img src="{{ '/images/presentations/miccai2025.jpeg' | relative_url }}" alt="Allison Clement beside her research poster at MICCAI 2025" loading="lazy"></a>
+    <a class="presentation-photo" href="/images/presentations/miccai2025.jpeg"><img src="/images/presentations/miccai2025.jpeg" alt="Allison Clement beside her research poster at MICCAI 2025" loading="lazy"></a>
   </article>
   <article class="presentation-card">
     <p class="presentation-meta">2024 · Research presentation</p>
@@ -54,7 +54,7 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://ora.ox.ac.uk/objects/uuid:91477c27-5f66-4391-92c0-4a7846ddfe34">Read the paper <span aria-hidden="true">↗</span></a>
     </div>
     </div>
-    <a class="presentation-photo" href="{{ '/images/presentations/eccv2024.jpeg' | relative_url }}"><img src="{{ '/images/presentations/eccv2024.jpeg' | relative_url }}" alt="Allison Clement presenting infant hip screening research at ECCV 2024" loading="lazy"></a>
+    <a class="presentation-photo" href="/images/presentations/eccv2024.jpeg"><img src="/images/presentations/eccv2024.jpeg" alt="Allison Clement presenting infant hip screening research at ECCV 2024" loading="lazy"></a>
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
@@ -67,7 +67,7 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://miua2024.github.io/docs/MIUA_Programme_Final.pdf">Conference programme <span aria-hidden="true">↗</span></a>
     </div>
     </div>
-    <a class="presentation-photo" href="{{ '/images/presentations/miua2024.jpeg' | relative_url }}"><img src="{{ '/images/presentations/miua2024.jpeg' | relative_url }}" alt="Allison Clement beside her infant hip ultrasound screening poster at MIUA 2024" loading="lazy"></a>
+    <a class="presentation-photo" href="/images/presentations/miua2024.jpeg"><img src="/images/presentations/miua2024.jpeg" alt="Allison Clement beside her infant hip ultrasound screening poster at MIUA 2024" loading="lazy"></a>
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
@@ -76,7 +76,7 @@ Selected conference posters, research talks, and presentations on medical imagin
       <p class="presentation-venue">Oxford Computer Science Conference</p>
       <p>Discussing research on predictive uncertainty and clinical decision support with fellow researchers.</p>
     </div>
-    <a class="presentation-photo presentation-photo--people" href="{{ '/images/presentations/comptuerscience_conference.jpeg' | relative_url }}"><img src="{{ '/images/presentations/comptuerscience_conference.jpeg' | relative_url }}" alt="Researchers discussing a poster at the Oxford Computer Science Conference" loading="lazy"></a>
+    <a class="presentation-photo presentation-photo--people" href="/images/presentations/comptuerscience_conference.jpeg"><img src="/images/presentations/comptuerscience_conference.jpeg" alt="Researchers discussing a poster at the Oxford Computer Science Conference" loading="lazy"></a>
   </article>
 </div>
 
