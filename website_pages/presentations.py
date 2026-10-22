@@ -15,7 +15,7 @@ author_profile: true
 <div class="presentation-list">
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
-    <p class="presentation-meta">27 September 2026 · Oral presentation</p>
+    <p class="presentation-meta">2026 · Oral presentation</p>
     <h3>Quantifying Contributions within Multimodal Fusion for Clinical Decisions</h3>
     <p class="presentation-venue">ML-CDS Workshop · MICCAI 2026 · Strasbourg, France</p>
     <p>Presented work on quantifying the contributions of image-derived measurements and clinical information to multimodal diagnostic decisions.</p>
@@ -28,7 +28,7 @@ author_profile: true
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
-      <p class="presentation-meta">24 June 2026 · Poster discussion</p>
+      <p class="presentation-meta">2026 · Poster discussion</p>
       <h3>Confidence in Angle Predictions for Clinical Decision Support</h3>
       <p class="presentation-venue">Oxford Computer Science Conference</p>
       <p>Discussing research on predictive uncertainty and clinical decision support with fellow researchers.</p>
@@ -37,7 +37,7 @@ author_profile: true
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
-    <p class="presentation-meta">25 September 2025 · Poster presentation</p>
+    <p class="presentation-meta">2025 · Poster presentation</p>
     <h3>Confidence in Angle Predictions for Clinical Decision Support</h3>
     <p class="presentation-venue">MICCAI 2025 · Daejeon, South Korea</p>
     <p>Presented research exploring predictive uncertainty in angle measurements and its role in more reliable clinical decision support.</p>
@@ -62,7 +62,7 @@ author_profile: true
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
-    <p class="presentation-meta">30 September 2024 · Conference presentation</p>
+    <p class="presentation-meta">2024 · Conference presentation</p>
     <h3>Landmark-Based Screening: Femoral Head Coverage and Graf Classification in Infant Developmental Dysplasia of the Hip</h3>
     <p class="presentation-venue">Women in Computer Vision (WiCV) Workshop · ECCV 2024 · Milan, Italy</p>
     <p>Research on landmark-based infant hip ultrasound screening using femoral head coverage and Graf classification.</p>
@@ -74,7 +74,7 @@ author_profile: true
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
-    <p class="presentation-meta">17 September 2024 · Research presentation</p>
+    <p class="presentation-meta">2024 · Research presentation</p>
     <h3>Improving Automated Ultrasound Infant Hip Screening Using an Integrated Clinical Classification Loss</h3>
     <p class="presentation-venue">Oxford Biomedical Imaging Festival · Oxford, UK</p>
     <p>Presented research on automated infant hip ultrasound screening, bringing clinical classification into the learning process.</p>
@@ -87,7 +87,7 @@ author_profile: true
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
-    <p class="presentation-meta">24–26 July 2024 · Conference presentation</p>
+    <p class="presentation-meta">2024 · Conference presentation</p>
     <h3>Improving Automated Ultrasound Infant Hip Screening Using an Integrated Clinical Classification Loss</h3>
     <p class="presentation-venue">Medical Image Understanding and Analysis (MIUA 2024) · Manchester, UK</p>
     <p>Research on incorporating clinical classification into the training loss for automated infant hip ultrasound screening.</p>
