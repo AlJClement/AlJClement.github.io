@@ -4,6 +4,8 @@
 <body>
   <a class="skip-link" href="#about">Skip to content</a>
   {% include portfolio-navigation.html %}
+  <div class="portfolio-shell">
+    {% include portfolio-profile.html %}
   <main>
     <section id="about" class="panel intro" aria-labelledby="about-heading">
       <div class="panel-inner">
@@ -26,6 +28,7 @@
       </section>
     {% endfor %}
   </main>
+  </div>
   <footer class="scroll-footer">© {{ site.time | date: '%Y' }} {{ site.name }} <a href="#about">Back to top ↑</a></footer>
 </body>
 </html>

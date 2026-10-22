@@ -4,19 +4,18 @@
 <body>
   <a class="skip-link" href="#page-content">Skip to content</a>
   {% include portfolio-navigation.html %}
+  <div class="portfolio-shell">
+    {% include portfolio-profile.html %}
   <main class="profile-page">
     {% assign section_id = page.path | split: '/' | last | remove: '.md' %}
     <section id="{{ section_id }}" class="panel" aria-labelledby="page-title">
       <div class="panel-inner">
-        <div class="intro-heading profile-identity">
-          <img class="intro-headshot" src="{{ '/images/headshot.jpg' | relative_url }}" alt="Allison Clement" width="112" height="112" fetchpriority="high">
-          <a href="{{ '/#about' | relative_url }}">{{ site.name | escape }}</a>
-        </div>
         <h1 id="page-title" class="section-title">{{ page.title }}</h1>
         <div id="page-content" class="section-content" tabindex="-1">{{ content }}</div>
       </div>
     </section>
   </main>
+  </div>
   <footer class="scroll-footer">© {{ site.time | date: '%Y' }} {{ site.name }} <a href="{{ '/#about' | relative_url }}">Back to home ↑</a></footer>
 </body>
 </html>

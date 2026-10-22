@@ -8,10 +8,7 @@ title: "About"
 author_profile: true
 ---
 
-<div class="intro-heading">
-  <img class="intro-headshot" src="{{ '/images/headshot.jpg' | relative_url }}" alt="Allison Clement" width="112" height="112" fetchpriority="high">
-  <h1>Allison Clement</h1>
-</div>
+# Allison Clement
 
 <p class="academic-role"><strong> BASc, MASc, DPhil Researcher in Computer Science | University of Oxford</strong></p>
 
