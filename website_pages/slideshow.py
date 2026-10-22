@@ -34,4 +34,10 @@ SLIDES = [
         "caption": "",
         "alt": "Women in Computer Science group gathered for a photograph",
     },
+    {
+        "image": "woman_in_cs_conf.jpeg",
+        "title": "Women in Computer Science Conference",
+        "caption": "",
+        "alt": "Conference participants gathered on the stairs and balconies for a group photograph",
+    },
 ]

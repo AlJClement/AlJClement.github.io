@@ -15,7 +15,8 @@ author_profile: true
 Selected conference posters, research talks, and presentations on medical imaging and machine learning.
 
 <div class="presentation-list">
-  <article class="presentation-card">
+  <article class="presentation-card presentation-card--with-photo">
+    <div class="presentation-description">
     <p class="presentation-meta">2026 · Oral presentation</p>
     <h3>Quantifying Contributions within Multimodal Fusion for Clinical Decisions</h3>
     <p class="presentation-venue">ML-CDS Workshop · MICCAI 2026 · Strasbourg, France</p>
@@ -24,6 +25,8 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://openreview.net/forum?id=I0g7EaXGAz">Read the paper <span aria-hidden="true">↗</span></a>
       <a href="https://ora.ox.ac.uk/objects/uuid:97525050-1774-449b-ab6e-9740e28b3405">Oxford research record <span aria-hidden="true">↗</span></a>
     </div>
+    </div>
+    <a class="presentation-photo" href="{{ '/images/presentations/miccai2026.jpeg' | relative_url }}"><img src="{{ '/images/presentations/miccai2026.jpeg' | relative_url }}" alt="Allison Clement presenting multimodal clinical decision support research at MICCAI 2026" loading="lazy"></a>
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
