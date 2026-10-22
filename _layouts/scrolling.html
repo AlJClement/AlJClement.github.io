@@ -32,7 +32,7 @@
         <a class="next-section" href="#education">Explore my background <span aria-hidden="true">↓</span></a>
       </div>
     </section>
-    {% assign section_names = 'education,experience,publications,teaching,volunteering,cv' | split: ',' %}
+    {% assign section_names = 'education,experience,publications,presentations,teaching,volunteering,cv' | split: ',' %}
     {% for section_name in section_names %}
       {% assign section_path = '_pages/' | append: section_name | append: '.md' %}
       {% assign section_page = site.pages | where: 'path', section_path | first %}

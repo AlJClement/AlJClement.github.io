@@ -8,6 +8,8 @@ main:
     url: /#experience
   - title: "Publications"
     url: /#publications
+  - title: "Posters & Presentations"
+    url: /posters-and-presentations/
   - title: "Teaching"
     url: /#teaching
   - title: "Volunteering"

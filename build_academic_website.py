@@ -6,7 +6,7 @@ import re
 from importlib import import_module
 from pathlib import Path
 
-PAGE_NAMES = ("about", "education", "experience", "publications", "teaching", "volunteering", "cv")
+PAGE_NAMES = ("about", "education", "experience", "publications", "presentations", "teaching", "volunteering", "cv")
 
 
 def build_pages(root, names):
