@@ -33,7 +33,7 @@ author_profile: true
       <p class="presentation-venue">Oxford Computer Science Conference</p>
       <p>Discussing research on predictive uncertainty and clinical decision support with fellow researchers.</p>
     </div>
-    <a class="presentation-photo presentation-photo--people" href="/images/presentations/comptuerscience_conference.jpeg"><img src="/images/presentations/comptuerscience_conference.jpeg" alt="Researchers discussing a poster at the Oxford Computer Science Conference" loading="lazy"></a>
+    <a class="presentation-photo presentation-photo--people" href="/images/presentations/comptuerscience_conference2026.jpeg"><img src="/images/presentations/comptuerscience_conference2026.jpeg" alt="Researchers discussing a poster at the Oxford Computer Science Conference" loading="lazy"></a>
   </article>
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
