@@ -5,8 +5,6 @@ title: "Awards & Funding"
 author_profile: true
 ---
 
-Scholarships, research grants, and funding supporting my doctoral research and conference participation.
-
 ## Scholarships
 
 ### Women in Computer Science Scholarship
