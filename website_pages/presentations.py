@@ -46,6 +46,25 @@ Selected conference posters, research talks, and presentations on medical imagin
       <a href="https://scholar.google.com/citations?view_op=view_citation&amp;user=QKPvEggAAAAJ&amp;citation_for_view=QKPvEggAAAAJ%3AeQOLeE2rZwMC&amp;hl=en">Publication details <span aria-hidden="true">↗</span></a>
     </div>
   </article>
+  <article class="presentation-card">
+    <p class="presentation-meta">2024 · Conference presentation</p>
+    <h3>Landmark-Based Screening: Femoral Head Coverage and Graf Classification in Infant Developmental Dysplasia of the Hip</h3>
+    <p class="presentation-venue">Women in Computer Vision (WiCV) Workshop · ECCV 2024 · Milan, Italy</p>
+    <p>Research on landmark-based infant hip ultrasound screening using femoral head coverage and Graf classification.</p>
+    <div class="presentation-links">
+      <a href="https://ora.ox.ac.uk/objects/uuid:91477c27-5f66-4391-92c0-4a7846ddfe34">Read the paper <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
+  <article class="presentation-card">
+    <p class="presentation-meta">2024 · Conference presentation</p>
+    <h3>Improving Automated Ultrasound Infant Hip Screening Using an Integrated Clinical Classification Loss</h3>
+    <p class="presentation-venue">Medical Image Understanding and Analysis (MIUA 2024) · Manchester, UK</p>
+    <p>Research on incorporating clinical classification into the training loss for automated infant hip ultrasound screening.</p>
+    <div class="presentation-links">
+      <a href="https://ora.ox.ac.uk/objects/uuid:c0b1235a-81f3-4be0-9aa9-1967b97ca5c2">Read the paper <span aria-hidden="true">↗</span></a>
+      <a href="https://miua2024.github.io/docs/MIUA_Programme_Final.pdf">Conference programme <span aria-hidden="true">↗</span></a>
+    </div>
+  </article>
 </div>
 
 [More research updates on LinkedIn](https://www.linkedin.com/in/allison-clement-082b17b5/recent-activity/all/)
