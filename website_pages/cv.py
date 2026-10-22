@@ -2,7 +2,7 @@
 # Rebuild with: python3 build_academic_website.py --page cv
 
 CONTENT = r"""---
-layout: single
+layout: profile
 permalink: /cv/
 title: "CV"
 author_profile: true

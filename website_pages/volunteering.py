@@ -2,7 +2,7 @@
 # Rebuild with: python3 build_academic_website.py --page volunteering
 
 CONTENT = r"""---
-layout: single
+layout: profile
 permalink: /volunteering/
 title: "Volunteering & Outreach"
 author_profile: true

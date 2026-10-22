@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: profile
 permalink: /posters-and-presentations/
 title: "Posters & Presentations"
 author_profile: true

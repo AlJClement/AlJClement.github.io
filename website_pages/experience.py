@@ -2,7 +2,7 @@
 # Rebuild with: python3 build_academic_website.py --page experience
 
 CONTENT = r"""---
-layout: single
+layout: profile
 permalink: /experience/
 title: "Work Experience"
 author_profile: true

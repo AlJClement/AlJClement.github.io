@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: profile
 permalink: /experience/
 title: "Work Experience"
 author_profile: true

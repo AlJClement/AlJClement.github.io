@@ -59,3 +59,6 @@ h1, .section-title { font-size: clamp(2.4rem, 5vw, 4.2rem); line-height: 1.13; l
   .intro-headshot { width: 80px; height: 80px; }
   .intro-heading h1 { font-size: clamp(1.8rem, 7vw, 2.4rem); }
 }
+
+.profile-page .panel { align-items: flex-start; }
+.profile-identity a { color: var(--ink); font-size: clamp(1.5rem, 4vw, 2.5rem); font-weight: 650; letter-spacing: -.03em; text-decoration: none; }

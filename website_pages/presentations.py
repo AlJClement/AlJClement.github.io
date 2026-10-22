@@ -6,7 +6,7 @@
 # This page does not automatically sync with LinkedIn.
 
 CONTENT = r"""---
-layout: single
+layout: profile
 permalink: /posters-and-presentations/
 title: "Posters & Presentations"
 author_profile: true

@@ -2,7 +2,7 @@
 # Rebuild with: python3 build_academic_website.py --page teaching
 
 CONTENT = r"""---
-layout: single
+layout: profile
 permalink: /teaching/
 title: "Teaching"
 author_profile: true

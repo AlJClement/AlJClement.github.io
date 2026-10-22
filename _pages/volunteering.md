@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: profile
 permalink: /volunteering/
 title: "Volunteering & Outreach"
 author_profile: true
