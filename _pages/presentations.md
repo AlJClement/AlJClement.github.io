@@ -5,8 +5,6 @@ title: "Posters & Presentations"
 author_profile: true
 ---
 
-Selected conference posters, research talks, and presentations on medical imaging and machine learning.
-
 <div class="presentation-list">
   <article class="presentation-card presentation-card--with-photo">
     <div class="presentation-description">
