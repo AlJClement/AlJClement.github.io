@@ -14,21 +14,8 @@ Scholarships, research grants, and funding supporting my doctoral research and c
 
 Full funding for the duration of my DPhil in Computer Science.
 
-## Grants & conference funding
+### Conference funding
 
-### G-Research Grant
-**G-Research · 2025**
-
-Grant supporting participation in MICCAI 2025 in Daejeon, South Korea.
-
-[Grant announcement](https://www.gresearch.com/news/g-research-july-2025-grant-winners/)
-
-### Women in Computer Vision Conference Funding
-**WiCV · ECCV 2024**
-
-Funding to support participation in the Women in Computer Vision workshop at ECCV.
-
-### MIUA Conference Funding
-**Medical Image Understanding and Analysis · 2024**
-
-Funding to support participation in the MIUA conference.
+- [G-Research Grant](https://www.gresearch.com/news/g-research-july-2025-grant-winners/) · MICCAI 2025
+- Women in Computer Vision funding · ECCV 2024
+- MIUA conference funding · 2024
