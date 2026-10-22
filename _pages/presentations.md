@@ -34,6 +34,18 @@ Selected conference posters, research talks, and presentations on medical imagin
     </div>
     <a class="presentation-photo" href="/images/presentations/miccai2025.jpeg"><img src="/images/presentations/miccai2025.jpeg" alt="Allison Clement beside her research poster at MICCAI 2025" loading="lazy"></a>
   </article>
+  <article class="presentation-card presentation-card--with-photo">
+    <div class="presentation-description">
+      <p class="presentation-meta">Poster presentation</p>
+      <h3>Confidence in Angle Predictions for Clinical Decision Support</h3>
+      <p class="presentation-venue">Oxford Biomedical Imaging Festival · Oxford, UK</p>
+      <p>Presenting research on confidence in angle predictions and discussing its application to clinical decision support.</p>
+      <div class="presentation-links">
+        <a href="https://ora.ox.ac.uk/objects/uuid:1e1aed93-ca62-4c76-9dd3-78714674a7f4">Read the paper <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <a class="presentation-photo" href="/images/presentations/biomaging.jpeg"><img src="/images/presentations/biomaging.jpeg" alt="Allison Clement beside her Confidence in Angle Predictions poster at the Oxford Biomedical Imaging Festival" loading="lazy"></a>
+  </article>
   <article class="presentation-card">
     <p class="presentation-meta">2024 · Research presentation</p>
     <h3>Improving Automated Ultrasound Infant Hip Screening Using an Integrated Clinical Classification Loss</h3>
