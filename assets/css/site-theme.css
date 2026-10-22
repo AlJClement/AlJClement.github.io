@@ -73,3 +73,14 @@ a:focus-visible { outline: 2px solid #568d7e; outline-offset: 3px; }
 .presentation-photo { display: block; max-width: 560px; margin: 20px 0; }
 .presentation-photo img { display: block; width: 100%; height: auto; border-radius: 6px; }
 @media (max-width: 600px) { .presentation-card { padding: 20px; } }
+
+/* Local logo fonts avoid requests to external icon providers. */
+@font-face { font-family: 'Profile Brands'; src: url('../webfonts/fa-brands-400.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Profile Academic'; src: url('../fonts/academicons.woff') format('woff'); font-weight: 400; font-style: normal; font-display: swap; }
+.profile-social-link { display: inline-flex; align-items: center; gap: 9px; }
+.profile-social-row { display: flex; flex-wrap: wrap; gap: 14px 24px; margin: 24px 0; }
+.social-logo { display: inline-block; width: 1.15em; text-align: center; font-family: 'Profile Brands'; font-size: 1.15em; font-weight: 400; font-style: normal; line-height: 1; }
+.social-logo--github::before { content: '\f09b'; }
+.social-logo--linkedin::before { content: '\f08c'; }
+.social-logo--scholar { font-family: 'Profile Academic'; }
+.social-logo--scholar::before { content: '\e9d4'; }
