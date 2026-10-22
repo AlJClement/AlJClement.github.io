@@ -16,6 +16,3 @@ My research explores how image-derived measurements and clinical information can
 My background spans mechanical engineering, biomedical engineering, and computer science. Before my DPhil, I worked on research and development in healthcare, including surgical technologies and AI-based cancer applications (where I still consult to date).
 
 I enjoy interdisciplinary research, teaching, and widening participation in STEM.
-
-
-
