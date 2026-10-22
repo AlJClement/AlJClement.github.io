@@ -10,6 +10,8 @@ main:
     url: /#publications
   - title: "Posters & Presentations"
     url: /#presentations
+  - title: "Awards & Funding"
+    url: /#awards
   - title: "Teaching"
     url: /#teaching
   - title: "Volunteering"
