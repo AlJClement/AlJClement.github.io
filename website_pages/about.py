@@ -21,9 +21,7 @@ My background spans mechanical engineering, biomedical engineering, and computer
 I enjoy interdisciplinary research, teaching, and widening participation in STEM.
 
 
-<div class="profile-social-row">
-{% include profile-social-links.html %}
-</div>
+
 """
 
 
